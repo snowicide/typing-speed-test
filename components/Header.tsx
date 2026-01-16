@@ -16,7 +16,7 @@ export function Header() {
   }, [isFinished, currentCpm, personalBest, setPersonalBest]);
 
   return (
-    <header className='relative max-w-322 mx-auto'>
+    <header className='relative max-w-322 mx-auto top-1 my-auto'>
       <div className='flex md:max-w-176 lg:max-w-312 px-4 mt-6  justify-between'>
         <div className='absolute left-10'>
           <Image

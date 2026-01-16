@@ -14,7 +14,7 @@ export default function Home() {
       <div className={` ${_hasHydrated ? 'animate-focus-in' : 'opacity-0'}`}>
         <Header />
 
-        <main className='max-w-312 px-4 md:px-5 mx-auto mt-15'>
+        <main className='max-w-312 px-4 md:px-5 mx-auto mt-20'>
           {isFinished ? (
             <>
               <Results />
