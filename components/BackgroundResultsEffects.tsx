@@ -26,12 +26,12 @@ export function BackgroundResultsEffects({
         <div className='relative w-full h-full max-w-'>
           <Image
             src={star1}
-            className='absolute w-10 md:w-18 bottom-10 right-10 md:bottom-16 md:right-10 lg:right-25'
+            className='absolute w-10 md:w-18 bottom-10 right-10 md:bottom-25 md:right-10 lg:bottom-50 lg:right-70'
             alt='Star 1'
           />
           <Image
             src={star2}
-            className='absolute w-5 md:w-8 bottom-152 left-8 md:bottom-129 md:left-12 lg:left-50 lg:bottom-110'
+            className='absolute w-5 md:w-8 bottom-170 left-8 md:bottom-140 md:left-15 lg:left-65 lg:bottom-150'
             alt='Star 2'
           />
         </div>
